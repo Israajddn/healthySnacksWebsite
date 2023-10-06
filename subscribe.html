@@ -1,0 +1,88 @@
+
+<!-- 1st form -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Healthy Snacks Subscribe</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="subscribe.css">
+</head>
+
+<body>
+     <!--header container -->
+    <div class="d-flex justify-content-around" id="header">
+
+        <!-- followMe dropdown -->
+        <div class="dropdown" id="followMeDropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Follow me
+            </button>
+            <ul class="dropdown-menu" style="background-color: #faedcd; border: #faedcd;">
+                <li><a class="dropdown-item" href="#"><img src="website.png" alt="websiteIcon" style="width: 1rem;">
+                        https://healthysnacks.com</a></li>
+                <li><a class="dropdown-item" href="#"><img src="instagram.jpeg" alt="instagramIcon"
+                            style="width: 1rem;"> Healthy_Snacks</a></li>
+                <li><a class="dropdown-item" href="#"><img src="Facebook.png" alt="facebookIcon" style="width: 1rem;">
+                        Healthy Snacks</a></li>
+            </ul>
+        </div>
+        <!-- end followMe dropdown -->
+
+        <!-- empty div -->
+        <div></div>
+        <div></div>
+        <!-- end empty div -->
+
+        <!-- home -->
+        <div id="home">
+        <button type="button" class="btn"><a style="color: black; text-decoration: none;" href="home.html">Home</a></button>
+        </div>
+        <!-- end home -->
+
+
+    </div>
+    <!-- end header container -->
+
+    <!-- subscribeForm -->
+    <div class="d-flex justify-content-center" id="subscriptionForm">
+    <form> 
+        <h1>Subscribe to healthysnacks</h1>
+        <div id="emailHelp" class="form-text">Stay up to date with everything important.</div>
+        <!-- FormGrid -->
+        <div class="row">
+            <div class="col">
+            <label for="name" class="form-label">First name</label>
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+            <label for="name" class="form-label">Last name</label>
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <!-- Email -->
+        <div class="mb-3">
+            <label for="email1" class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="example@example.com" aria-describedby="emailHelp">
+        </div>
+        <!-- checkBox -->
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" required>
+            <label class="form-check-label" for="termsandconditions">I agree to Linktree's Terms and Conditions and Privacy Notice. <small style="color: gray;">Required</small></label>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="termsandconditions">I agree to my contact details being shared with healthysnacks, who may contact me.</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: black; border: black;">Subscribe</button>
+    </form>
+</div>
+
+</body>
+
+</html>

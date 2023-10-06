@@ -1,0 +1,33 @@
+/* element selector */
+body {
+    background-color: #fefae0;
+    margin: 50px 0 50px 0;
+}
+#header {
+    
+}
+/* class selector */
+#followMeDropdown, .subscribeButton,  .messageMe {
+    background-color: #faedcd;
+    transition-property: background-color;
+}
+/* hover selector */
+#followMeDropdown:hover , .subscribeButton:hover ,  .messageMe:hover  {
+    background-color: #d4a373;
+}
+/* id selector */
+#body {
+ margin-top: 40px;
+}
+#recipe1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #faedcd;
+    font-size: larger;
+    margin: 20px 30% 20px 30%;
+    transition-property: background-color;
+}
+#recipe1:hover {
+    background-color: #d4a373;
+}
+ 

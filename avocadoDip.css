@@ -1,0 +1,26 @@
+body {
+    background-color: #fefae0;
+    margin: 50px 0 50px 0;
+}
+.header {
+    display: flex;
+}
+#followMeDropdown {
+    background-color: #faedcd;
+    transition-property: background-color;
+}
+#followMeDropdown:hover {
+    background-color: #d4a373;
+}
+#home {
+    background-color: #faedcd;
+    transition-property: background-color;
+}
+#home:hover {
+    background-color: #d4a373;
+}
+#recipe {
+    background-color: #faedcd;
+    margin: 20px 10% 20px 10%;
+}
+
